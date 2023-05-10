@@ -1,0 +1,46 @@
+* {
+  overflow: hidden;
+}
+
+button {
+  border-style: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#b1 {
+  background-color: #9bd0f5;
+}
+#b2 {
+  background-color: #ffb1c1;
+}
+button.selected {
+  border-style: solid;
+}
+
+input[type="range"] {
+  margin-left:40px;
+
+  width: 20%;
+  height: 20px;
+  background-color: #d1d;
+  border-radius: 10px;
+  accent-color: green;
+}
+
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+}
+
+.values {
+  display: inline-block;
+  margin-left: 40px;
+  text-align: right;
+}

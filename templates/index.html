@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/mainpage.css') }}">
+    <title>SVM Visualization</title>
+  </head>
+  <body>
+    <div>
+      <h1 align="center">SVM Visualization</h1>
+      <canvas id="myChart" width="350" height="100">
+    </div>
+    <div>
+        <span>
+            <button id="b1" class="selected">
+                Dataset 1
+            </button>
+            <button id="b2">
+                Dataset 2
+            </button>
+        </span>
+        <span>
+          <label for="cvalue"><b>C:</b><span id="value_c">10</span></label>
+          <input id="cvalue" title="C-value" type="range" min="-3" max="5" step="1" value="1">
+        </span>
+        <span class="values">
+          <b>The margin is: </b><span id="margin-value">NaN</span>
+        </span>
+        <span class="values">
+          <b>The error is: </b><span id="error-value">NaN</span>
+        </span>
+    </div>
+    <span></span>
+    <script src="{{ url_for('static',filename='services/app.js') }}"></script>
+  </body>
+</html>
