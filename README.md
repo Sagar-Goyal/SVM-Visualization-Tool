@@ -34,6 +34,6 @@ python server.py
 <p>4. The web page will display a form where you can enter the dataset and select the regularization parameter 'C' values.</p>
 
 <p>5. You can adjust the 'C' values and retrain the model to see how the margin and error values change.</p>
-
+h
 <h2>🙌 Credits:</h2>
-<p>This tool was created by <a href="https://github.com/Sagar-Goyal/">Sagar Goyal</a> and <a href="https://github.com/kapilbishnoi70/">Kapil Bhisnoi</a> as part of a project for Course EEN-366 IIT Roorkee. The SVM code was adapted from the scikit-learn library.</p>
+<p>This tool was created by <a href="https://github.com/Sagar-Goyal/">Sagar Goyal</a> and <a href="https://github.com/kapilbishnoi70/">Kapil Bishnoi</a> as part of a project for Course EEN-366 IIT Roorkee. The SVM code was adapted from the scikit-learn library.</p>
